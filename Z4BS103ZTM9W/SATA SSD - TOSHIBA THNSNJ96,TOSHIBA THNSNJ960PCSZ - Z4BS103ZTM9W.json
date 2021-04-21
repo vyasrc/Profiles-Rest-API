@@ -1,0 +1,83 @@
+{
+    "job": {
+        "id": "f0e709a3-c3ad-4988-b897-fa0300803843",
+        "device": {
+            "identifier": "/dev/sdc",
+            "type": "DRIVE",
+            "mount_points": [],
+            "transport": "sata",
+            "location": "6:0:2:0",
+            "media": "SSD",
+            "features": [
+                "ENCHANCED_SECURITY_ERASE",
+                "USER_PASSWORD_SET"
+            ],
+            "capacity": 960197124096,
+            "model": [
+                "TOSHIBA THNSNJ96",
+                "TOSHIBA THNSNJ960PCSZ"
+            ],
+            "serial_number": [
+                "Z4BS103ZTM9W"
+            ],
+            "firmware_version": [
+                "6102",
+                "JZET6102"
+            ]
+        },
+        "state": "FAILED",
+        "sanitization_state": {
+            "phase": "CANARY_INIT",
+            "phase_progress": 0.0,
+            "overall_progress": 0.0
+        },
+        "start_time_secs": 1618987473.016527,
+        "duration_secs": 0.5693097114562988
+    },
+    "logs": [
+        "2021-04-21 02:44:33 sata_ssd: INFO: Starting sanitization of /dev/sdc",
+        "2021-04-21 02:44:33 Phase CANARY_INIT 0%: Overall: 0%",
+        "2021-04-21 02:44:33 sata_ssd: INFO: Erasing with ME tools 0.6.0-1bce0a4",
+        "2021-04-21 02:44:33 kernel: INFO,KERN: sd 6:0:2:0: [sdc] tag#8315 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE cmd_age=0s {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:2:0'}",
+        "2021-04-21 02:44:33 sata_ssd: INFO: Starting phase CANARY_INIT for /dev/sdc",
+        "2021-04-21 02:44:33 kernel: INFO,KERN: sd 6:0:2:0: [sdc] tag#8315 Sense Key : Illegal Request [current]  {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:2:0'}",
+        "2021-04-21 02:44:33 sata_ssd: INFO: /dev/sdc size 894.25GiB",
+        "2021-04-21 02:44:33 kernel: INFO,KERN: sd 6:0:2:0: [sdc] tag#8315 Add. Sense: Security conflict in translated device {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:2:0'}",
+        "2021-04-21 02:44:33 sata_ssd: INFO: Will write 64 canary patterns",
+        "2021-04-21 02:44:33 kernel: INFO,KERN: sd 6:0:2:0: [sdc] tag#8315 CDB: Read(10) 28 00 00 00 00 00 00 00 08 00 {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:2:0'}",
+        "2021-04-21 02:44:33 sata_ssd: DEBUG: Written 104 bytes of canary data to /dev/sdc:0b",
+        "2021-04-21 02:44:33 kernel: ERR,KERN: blk_update_request: I/O error, dev sdc, sector 0 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0 {}",
+        "2021-04-21 02:44:33 kernel: INFO,KERN: sd 6:0:2:0: [sdc] tag#8316 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE cmd_age=0s {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:2:0'}",
+        "2021-04-21 02:44:33 kernel: INFO,KERN: sd 6:0:2:0: [sdc] tag#8316 Sense Key : Illegal Request [current]  {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:2:0'}",
+        "2021-04-21 02:44:33 kernel: INFO,KERN: sd 6:0:2:0: [sdc] tag#8316 Add. Sense: Security conflict in translated device {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:2:0'}",
+        "2021-04-21 02:44:33 kernel: INFO,KERN: sd 6:0:2:0: [sdc] tag#8316 CDB: Read(10) 28 00 00 00 00 00 00 00 08 00 {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:2:0'}",
+        "2021-04-21 02:44:33 kernel: ERR,KERN: blk_update_request: I/O error, dev sdc, sector 0 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0 {}",
+        "2021-04-21 02:44:33 sata_ssd: ERROR: Traceback (most recent call last):",
+        "2021-04-21 02:44:33 sata_ssd:   File \"/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/sanitization/verification.py\", line 35, in _pre_run",
+        "2021-04-21 02:44:33 sata_ssd:     at_offset = f.seek(offset, os.SEEK_SET)",
+        "2021-04-21 02:44:33 sata_ssd: OSError: [Errno 5] Input/output error",
+        "2021-04-21 02:44:33 sata_ssd:",
+        "2021-04-21 02:44:33 sata_ssd: During handling of the above exception, another exception occurred:",
+        "2021-04-21 02:44:33 sata_ssd:",
+        "2021-04-21 02:44:33 sata_ssd: Traceback (most recent call last):",
+        "2021-04-21 02:44:33 sata_ssd:   File \"/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/lib/sanitization.py\", line 325, in run",
+        "2021-04-21 02:44:33 sata_ssd:     pre_run = self._pre_run()",
+        "2021-04-21 02:44:33 sata_ssd:   File \"/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/sanitization/verification.py\", line 48, in _pre_run",
+        "2021-04-21 02:44:33 sata_ssd:     os.fsync(f.fileno())",
+        "2021-04-21 02:44:33 sata_ssd: OSError: [Errno 5] Input/output error",
+        "2021-04-21 02:44:33 sata_ssd:",
+        "2021-04-21 02:44:33 Traceback (most recent call last):",
+        "  File \"/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/daemon/__init__.py\", line 205, in _sanitizer_thread",
+        "    self._sanitize(job_id, device, log_fd)",
+        "  File \"/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/daemon/__init__.py\", line 169, in _sanitize",
+        "    for sanitization_state in sanitization.progress():",
+        "  File \"/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/lib/sanitization.py\", line 138, in progress",
+        "    raise RuntimeError(",
+        "RuntimeError: ('Returned non zero: ', 1)",
+        ""
+    ],
+    "versions": {
+        "daemon": "0.6.0-1bce0a4",
+        "gui": "0.6.0-1bce0a4"
+    }
+}

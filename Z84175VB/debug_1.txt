@@ -1,0 +1,4 @@
+
+/dev/sdb:
+ Timing cached reads:   17260 MB in  1.99 seconds = 8654.59 MB/sec
+ Timing buffered disk reads: 616 MB in  3.00 seconds = 205.06 MB/sec
