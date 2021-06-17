@@ -1,0 +1,157 @@
+2021-06-17 00:36:25 sata_hdd: INFO: Starting sanitization of /dev/sdd
+2021-06-17 00:36:25 sata_hdd: INFO: Erasing with ME tools 0.10.0+f0a8163
+2021-06-17 00:36:25 sata_hdd: DEBUG: Running _pre_run()
+2021-06-17 00:36:25 Phase UNLOCKING 0%: Overall: 0%
+2021-06-17 00:36:25 sata_hdd: INFO: Drive /dev/sdd model: ST4000DM000-1F2168, ST4000DM000-1F21 Serial number: W3015BAX
+2021-06-17 00:36:25 sata_hdd: INFO: HPAInfo HPAInfo(sectors=7814037168, max_sectors=7814037168)
+2021-06-17 00:36:25 sata_hdd: INFO: DCOInfo DCOInfo(max_sectors=7814037168)
+2021-06-17 00:36:25 Phase UNLOCKING 100%: Overall: 0%
+2021-06-17 00:36:25 sata_hdd: INFO: Starting phase CANARY_INIT
+2021-06-17 00:36:25 Phase CANARY_INIT 0%: Overall: 0%
+2021-06-17 00:36:25 sata_hdd: INFO: Starting phase CANARY_INIT_/dev/sdd for /dev/sdd
+2021-06-17 00:36:25 Phase CANARY_INIT_/dev/sdd 0%: Overall: 0%
+2021-06-17 00:36:25 sata_hdd: INFO: /dev/sdd size 3726.02GiB
+2021-06-17 00:36:25 sata_hdd: INFO: Will write 42 canary patterns, at [Chunk(start=0, len=1, block_size=4096), Chunk(start=20511835, len=24419, block_size=4096), Chunk(start=46053953, len=24419, block_size=4096), Chunk(start=53941242, len=24419, block_size=4096), Chunk(start=98041686, len=24419, block_size=4096), Chunk(start=134376933, len=24419, block_size=4096), Chunk(start=143851448, len=24419, block_size=4096), Chunk(start=167220287, len=24419, block_size=4096), Chunk(start=174521523, len=24419, block_size=4096), Chunk(start=176890151, len=24419, block_size=4096), Chunk(start=229219747, len=24419, block_size=4096), Chunk(start=249609486, len=24419, block_size=4096), Chunk(start=261892168, len=24419, block_size=4096), Chunk(start=277080693, len=24419, block_size=4096), Chunk(start=295248318, len=24419, block_size=4096), Chunk(start=320131126, len=24419, block_size=4096), Chunk(start=327359105, len=24419, block_size=4096), Chunk(start=340594122, len=24419, block_size=4096), Chunk(start=368675801, len=48835, block_size=4096), Chunk(start=368895569, len=24419, block_size=4096), Chunk(start=405694777, len=24419, block_size=4096), Chunk(start=418099551, len=24419, block_size=4096), Chunk(start=437366025, len=24419, block_size=4096), Chunk(start=487351412, len=48835, block_size=4096), Chunk(start=504591118, len=24419, block_size=4096), Chunk(start=532037906, len=24419, block_size=4096), Chunk(start=537214701, len=24419, block_size=4096), Chunk(start=568104547, len=24419, block_size=4096), Chunk(start=568788276, len=24419, block_size=4096), Chunk(start=670736974, len=24419, block_size=4096), Chunk(start=697060494, len=24419, block_size=4096), Chunk(start=724702634, len=48835, block_size=4096), Chunk(start=771000773, len=24419, block_size=4096), Chunk(start=835368861, len=24419, block_size=4096), Chunk(start=835442118, len=24419, block_size=4096), Chunk(start=837029344, len=48835, block_size=4096), Chunk(start=852266704, len=24419, block_size=4096), Chunk(start=894584573, len=24419, block_size=4096), Chunk(start=906500970, len=24419, block_size=4096), Chunk(start=924986039, len=24419, block_size=4096), Chunk(start=956486357, len=24419, block_size=4096), Chunk(start=976754645, len=1, block_size=4096)],total 4197.0 MB
+2021-06-17 00:36:25 Phase CANARY_INIT_/dev/sdd 2%: Overall: 0%
+2021-06-17 00:36:25 sata_hdd: DEBUG: writing chunk 1/42, 0.0 MB @ 0.0 MB, speed 0.0MB/s
+2021-06-17 00:36:25 Phase CANARY_INIT_/dev/sdd 4%: Overall: 0%
+2021-06-17 00:36:25 sata_hdd: DEBUG: writing chunk 2/42, 95.4 MB @ 80124.4 MB, speed 154.0MB/s
+2021-06-17 00:36:26 Phase CANARY_INIT_/dev/sdd 7%: Overall: 0%
+2021-06-17 00:36:26 sata_hdd: DEBUG: writing chunk 3/42, 95.4 MB @ 179898.3 MB, speed 150.0MB/s
+2021-06-17 00:36:27 Phase CANARY_INIT_/dev/sdd 9%: Overall: 0%
+2021-06-17 00:36:27 sata_hdd: DEBUG: writing chunk 4/42, 95.4 MB @ 210708.0 MB, speed 148.0MB/s
+2021-06-17 00:36:27 Phase CANARY_INIT_/dev/sdd 11%: Overall: 0%
+2021-06-17 00:36:27 sata_hdd: DEBUG: writing chunk 5/42, 95.4 MB @ 382975.3 MB, speed 150.0MB/s
+2021-06-17 00:36:28 Phase CANARY_INIT_/dev/sdd 14%: Overall: 0%
+2021-06-17 00:36:28 sata_hdd: DEBUG: writing chunk 6/42, 95.4 MB @ 524909.9 MB, speed 150.0MB/s
+2021-06-17 00:36:29 Phase CANARY_INIT_/dev/sdd 16%: Overall: 0%
+2021-06-17 00:36:29 sata_hdd: DEBUG: writing chunk 7/42, 95.4 MB @ 561919.7 MB, speed 149.0MB/s
+2021-06-17 00:36:29 Phase CANARY_INIT_/dev/sdd 19%: Overall: 0%
+2021-06-17 00:36:29 sata_hdd: DEBUG: writing chunk 8/42, 95.4 MB @ 653204.2 MB, speed 149.0MB/s
+2021-06-17 00:36:30 Phase CANARY_INIT_/dev/sdd 21%: Overall: 0%
+2021-06-17 00:36:30 sata_hdd: DEBUG: writing chunk 9/42, 95.4 MB @ 681724.7 MB, speed 148.0MB/s
+2021-06-17 00:36:31 Phase CANARY_INIT_/dev/sdd 23%: Overall: 0%
+2021-06-17 00:36:31 sata_hdd: DEBUG: writing chunk 10/42, 95.4 MB @ 690977.2 MB, speed 147.0MB/s
+2021-06-17 00:36:31 Phase CANARY_INIT_/dev/sdd 26%: Overall: 0%
+2021-06-17 00:36:31 sata_hdd: DEBUG: writing chunk 11/42, 95.4 MB @ 895389.6 MB, speed 147.0MB/s
+2021-06-17 00:36:32 Phase CANARY_INIT_/dev/sdd 28%: Overall: 0%
+2021-06-17 00:36:32 sata_hdd: DEBUG: writing chunk 12/42, 95.4 MB @ 975037.1 MB, speed 146.0MB/s
+2021-06-17 00:36:33 Phase CANARY_INIT_/dev/sdd 30%: Overall: 0%
+2021-06-17 00:36:33 sata_hdd: DEBUG: writing chunk 13/42, 95.4 MB @ 1023016.3 MB, speed 147.0MB/s
+2021-06-17 00:36:33 Phase CANARY_INIT_/dev/sdd 33%: Overall: 0%
+2021-06-17 00:36:33 sata_hdd: DEBUG: writing chunk 14/42, 95.4 MB @ 1082346.5 MB, speed 146.0MB/s
+2021-06-17 00:36:34 Phase CANARY_INIT_/dev/sdd 35%: Overall: 0%
+2021-06-17 00:36:34 sata_hdd: DEBUG: writing chunk 15/42, 95.4 MB @ 1153313.7 MB, speed 146.0MB/s
+2021-06-17 00:36:35 kernel: INFO,KERN: usb 1-14.1.1: USB disconnect, device number 9 {'SUBSYSTEM': 'usb', 'DEVICE': 'c189:8'}
+2021-06-17 00:36:35 Phase CANARY_INIT_/dev/sdd 38%: Overall: 0%
+2021-06-17 00:36:35 sata_hdd: DEBUG: writing chunk 16/42, 95.4 MB @ 1250512.2 MB, speed 145.0MB/s
+2021-06-17 00:36:35 sata_hdd: DEBUG: writing chunk 17/42, 95.4 MB @ 1278746.5 MB, speed 145.0MB/s
+2021-06-17 00:36:35 Phase CANARY_INIT_/dev/sdd 40%: Overall: 0%
+2021-06-17 00:36:36 Phase CANARY_INIT_/dev/sdd 42%: Overall: 0%
+2021-06-17 00:36:36 sata_hdd: DEBUG: writing chunk 18/42, 95.4 MB @ 1330445.8 MB, speed 145.0MB/s
+2021-06-17 00:36:37 Phase CANARY_INIT_/dev/sdd 45%: Overall: 0%
+2021-06-17 00:36:37 sata_hdd: DEBUG: writing chunk 19/42, 190.8 MB @ 1440139.8 MB, speed 145.0MB/s
+2021-06-17 00:36:38 Phase CANARY_INIT_/dev/sdd 47%: Overall: 0%
+2021-06-17 00:36:38 sata_hdd: DEBUG: writing chunk 20/42, 95.4 MB @ 1440998.3 MB, speed 144.0MB/s
+2021-06-17 00:36:39 Phase CANARY_INIT_/dev/sdd 50%: Overall: 0%
+2021-06-17 00:36:39 sata_hdd: DEBUG: writing chunk 21/42, 95.4 MB @ 1584745.2 MB, speed 144.0MB/s
+2021-06-17 00:36:39 Phase CANARY_INIT_/dev/sdd 52%: Overall: 0%
+2021-06-17 00:36:39 sata_hdd: DEBUG: writing chunk 22/42, 95.4 MB @ 1633201.4 MB, speed 144.0MB/s
+2021-06-17 00:36:40 Phase CANARY_INIT_/dev/sdd 54%: Overall: 0%
+2021-06-17 00:36:40 sata_hdd: DEBUG: writing chunk 23/42, 95.4 MB @ 1708461.0 MB, speed 143.0MB/s
+2021-06-17 00:36:41 Phase CANARY_INIT_/dev/sdd 57%: Overall: 0%
+2021-06-17 00:36:41 sata_hdd: DEBUG: writing chunk 24/42, 190.8 MB @ 1903716.5 MB, speed 143.0MB/s
+2021-06-17 00:36:42 Phase CANARY_INIT_/dev/sdd 59%: Overall: 0%
+2021-06-17 00:36:42 sata_hdd: DEBUG: writing chunk 25/42, 95.4 MB @ 1971059.1 MB, speed 142.0MB/s
+2021-06-17 00:36:43 Phase CANARY_INIT_/dev/sdd 61%: Overall: 0%
+2021-06-17 00:36:43 sata_hdd: DEBUG: writing chunk 26/42, 95.4 MB @ 2078273.1 MB, speed 142.0MB/s
+2021-06-17 00:36:44 Phase CANARY_INIT_/dev/sdd 64%: Overall: 0%
+2021-06-17 00:36:44 sata_hdd: DEBUG: writing chunk 27/42, 95.4 MB @ 2098494.9 MB, speed 141.0MB/s
+2021-06-17 00:36:44 Phase CANARY_INIT_/dev/sdd 66%: Overall: 0%
+2021-06-17 00:36:44 sata_hdd: DEBUG: writing chunk 28/42, 95.4 MB @ 2219158.4 MB, speed 141.0MB/s
+2021-06-17 00:36:45 Phase CANARY_INIT_/dev/sdd 69%: Overall: 0%
+2021-06-17 00:36:45 sata_hdd: DEBUG: writing chunk 29/42, 95.4 MB @ 2221829.2 MB, speed 140.0MB/s
+2021-06-17 00:36:46 Phase CANARY_INIT_/dev/sdd 71%: Overall: 0%
+2021-06-17 00:36:46 sata_hdd: DEBUG: writing chunk 30/42, 95.4 MB @ 2620066.3 MB, speed 139.0MB/s
+2021-06-17 00:36:47 Phase CANARY_INIT_/dev/sdd 73%: Overall: 0%
+2021-06-17 00:36:47 sata_hdd: DEBUG: writing chunk 31/42, 95.4 MB @ 2722892.6 MB, speed 138.0MB/s
+2021-06-17 00:36:49 Phase CANARY_INIT_/dev/sdd 76%: Overall: 0%
+2021-06-17 00:36:49 sata_hdd: DEBUG: writing chunk 32/42, 190.8 MB @ 2830869.7 MB, speed 136.0MB/s
+2021-06-17 00:36:49 Phase CANARY_INIT_/dev/sdd 78%: Overall: 0%
+2021-06-17 00:36:49 sata_hdd: DEBUG: writing chunk 33/42, 95.4 MB @ 3011721.8 MB, speed 135.0MB/s
+2021-06-17 00:36:50 Phase CANARY_INIT_/dev/sdd 80%: Overall: 0%
+2021-06-17 00:36:50 sata_hdd: DEBUG: writing chunk 34/42, 95.4 MB @ 3263159.6 MB, speed 134.0MB/s
+2021-06-17 00:36:51 Phase CANARY_INIT_/dev/sdd 83%: Overall: 0%
+2021-06-17 00:36:51 sata_hdd: DEBUG: writing chunk 35/42, 95.4 MB @ 3263445.8 MB, speed 133.0MB/s
+2021-06-17 00:36:53 Phase CANARY_INIT_/dev/sdd 85%: Overall: 0%
+2021-06-17 00:36:53 sata_hdd: DEBUG: writing chunk 36/42, 190.8 MB @ 3269645.9 MB, speed 131.0MB/s
+2021-06-17 00:36:54 Phase CANARY_INIT_/dev/sdd 88%: Overall: 0%
+2021-06-17 00:36:54 sata_hdd: DEBUG: writing chunk 37/42, 95.4 MB @ 3329166.8 MB, speed 129.0MB/s
+2021-06-17 00:36:55 Phase CANARY_INIT_/dev/sdd 90%: Overall: 0%
+2021-06-17 00:36:55 sata_hdd: DEBUG: writing chunk 38/42, 95.4 MB @ 3494471.0 MB, speed 128.0MB/s
+2021-06-17 00:36:56 Phase CANARY_INIT_/dev/sdd 92%: Overall: 0%
+2021-06-17 00:36:56 sata_hdd: DEBUG: writing chunk 39/42, 95.4 MB @ 3541019.4 MB, speed 126.0MB/s
+2021-06-17 00:36:58 Phase CANARY_INIT_/dev/sdd 95%: Overall: 0%
+2021-06-17 00:36:58 sata_hdd: DEBUG: writing chunk 40/42, 95.4 MB @ 3613226.7 MB, speed 125.0MB/s
+2021-06-17 00:36:59 Phase CANARY_INIT_/dev/sdd 97%: Overall: 0%
+2021-06-17 00:36:59 sata_hdd: DEBUG: writing chunk 41/42, 95.4 MB @ 3736274.8 MB, speed 123.0MB/s
+2021-06-17 00:36:59 Phase CANARY_INIT_/dev/sdd 100%: Overall: 0%
+2021-06-17 00:36:59 sata_hdd: DEBUG: writing chunk 42/42, 0.0 MB @ 3815447.8 MB, speed 123.0MB/s
+2021-06-17 00:36:59 sata_hdd: DEBUG: Flushing /dev/sdd cache
+2021-06-17 00:36:59 Phase CANARY_INIT_/dev/sdd 100%: Overall: 0%
+2021-06-17 00:36:59 sata_hdd: DEBUG: Running _run()
+2021-06-17 00:36:59 Phase CANARY_INIT 100%: Overall: 0%
+2021-06-17 00:36:59 Phase ATA_SANITIZATION 0%: Overall: 0%
+2021-06-17 00:36:59 sata_hdd: INFO: Attempting SECURE_ERASE sanitization on /dev/sdd
+2021-06-17 00:36:59 Phase Check if frozen 0%: Overall: 0%
+2021-06-17 00:36:59 sata_hdd: INFO: Setting user password.
+2021-06-17 00:36:59 Phase Check if frozen 100%: Overall: 30%
+2021-06-17 00:36:59 sata_hdd: INFO: Running: hdparm --user-master u --security-set-pass faceBook /dev/sdd
+2021-06-17 00:36:59 Phase Set user password 0%: Overall: 30%
+2021-06-17 00:36:59 sata_hdd: INFO: security_password: "faceBook"
+2021-06-17 00:36:59 sata_hdd: INFO:
+2021-06-17 00:36:59 sata_hdd: INFO: /dev/sdd:
+2021-06-17 00:36:59 sata_hdd: INFO:  Issuing SECURITY_SET_PASS command, password="faceBook", user=user, mode=high
+2021-06-17 00:36:59 sata_hdd: INFO: Waiting 30 seconds to work around fw issues
+2021-06-17 00:36:59 Phase Set user password 100%: Overall: 30%
+2021-06-17 00:36:59 Phase Wait for drive 0%: Overall: 30%
+2021-06-17 00:37:29 Phase Wait for drive 100%: Overall: 30%
+2021-06-17 00:37:29 sata_hdd: INFO: Running: hdparm --user-master u --security-erase-enhanced faceBook /dev/sdd
+2021-06-17 00:37:29 Phase Security erase 0%: Overall: 60%
+2021-06-17 00:37:43 kernel: INFO,KERN: usb 1-14.1.1: new high-speed USB device number 10 using xhci_hcd {'SUBSYSTEM': 'usb', 'DEVICE': '+usb:1-14.1.1'}
+2021-06-17 00:37:43 kernel: INFO,KERN: usb 1-14.1.1: New USB device found, idVendor=0624, idProduct=0249, bcdDevice= 0.00 {'SUBSYSTEM': 'usb', 'DEVICE': 'c189:9'}
+2021-06-17 00:37:43 kernel: INFO,KERN: usb 1-14.1.1: New USB device strings: Mfr=4, Product=5, SerialNumber=6 {'SUBSYSTEM': 'usb', 'DEVICE': 'c189:9'}
+2021-06-17 00:37:43 kernel: INFO,KERN: usb 1-14.1.1: Product: Keyboard/Mouse Function {'SUBSYSTEM': 'usb', 'DEVICE': 'c189:9'}
+2021-06-17 00:37:43 kernel: INFO,KERN: usb 1-14.1.1: Manufacturer: Avocent {'SUBSYSTEM': 'usb', 'DEVICE': 'c189:9'}
+2021-06-17 00:37:43 kernel: INFO,KERN: usb 1-14.1.1: SerialNumber: 20180726 {'SUBSYSTEM': 'usb', 'DEVICE': 'c189:9'}
+2021-06-17 00:37:43 kernel: INFO,KERN: input: Avocent Keyboard/Mouse Function as /devices/pci0000:00/0000:00:14.0/usb1/1-14/1-14.1/1-14.1.1/1-14.1.1:1.0/0003:0624:0249.000A/input/input12 {}
+2021-06-17 00:37:44 kernel: INFO,KERN: hid-generic 0003:0624:0249.000A: input,hidraw3: USB HID v1.00 Keyboard [Avocent Keyboard/Mouse Function] on usb-0000:00:14.0-14.1.1/input0 {'SUBSYSTEM': 'hid', 'DEVICE': '+hid:0003:0624:0249.000A'}
+2021-06-17 00:37:44 kernel: INFO,KERN: input: Avocent Keyboard/Mouse Function as /devices/pci0000:00/0000:00:14.0/usb1/1-14/1-14.1/1-14.1.1/1-14.1.1:1.1/0003:0624:0249.000B/input/input13 {}
+2021-06-17 00:37:44 kernel: INFO,KERN: hid-generic 0003:0624:0249.000B: input,hidraw4: USB HID v1.00 Mouse [Avocent Keyboard/Mouse Function] on usb-0000:00:14.0-14.1.1/input1 {'SUBSYSTEM': 'hid', 'DEVICE': '+hid:0003:0624:0249.000B'}
+2021-06-17 00:37:54 kernel: INFO,KERN: usb 1-14.1.1: USB disconnect, device number 10 {'SUBSYSTEM': 'usb', 'DEVICE': 'c189:9'}
+2021-06-17 01:07:29 sata_hdd: CRITICAL: 1800.0s timeout waiting for command!
+2021-06-17 01:07:29 sata_hdd: INFO: Sending SIGTERM
+2021-06-17 01:07:39 sata_hdd: CRITICAL: 10.0s timeout waiting for command to exit!
+2021-06-17 01:07:39 sata_hdd: INFO: Sending SIGKILL
+2021-06-17 08:17:59 sata_hdd: ERROR: Traceback (most recent call last):
+2021-06-17 08:17:59 sata_hdd:   File "/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/lib/sanitization.py", line 355, in run
+2021-06-17 08:17:59 sata_hdd:     run_code = self._run()
+2021-06-17 08:17:59 sata_hdd:   File "/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/sanitization/ata.py", line 164, in _run
+2021-06-17 08:17:59 sata_hdd:     return self._run_security_erase_or_fail(hdparm_device_info)
+2021-06-17 08:17:59 sata_hdd:   File "/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/sanitization/ata.py", line 148, in _run_security_erase_or_fail
+2021-06-17 08:17:59 sata_hdd:     return self._run_security_erase(hdparm_device_info)
+2021-06-17 08:17:59 sata_hdd:   File "/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/sanitization/ata.py", line 123, in _run_security_erase
+2021-06-17 08:17:59 sata_hdd:     self._security_erase(
+2021-06-17 08:17:59 sata_hdd:   File "/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/sanitization/ata.py", line 81, in _security_erase
+2021-06-17 08:17:59 sata_hdd:     raise SanitizationError(
+2021-06-17 08:17:59 sata_hdd: magiceraser.lib.sanitization.SanitizationError: hdparm --user-master u --security-erase-enhanced faceBook /dev/sdd returned -15
+2021-06-17 08:17:59 sata_hdd:
+2021-06-17 08:18:00 Traceback (most recent call last):
+  File "/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/daemon/__init__.py", line 229, in _sanitizer_thread
+    self._sanitize(job_id, device, log_fd)
+  File "/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/daemon/__init__.py", line 193, in _sanitize
+    for sanitization_state in sanitization.progress():
+  File "/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/lib/sanitization.py", line 153, in progress
+    raise RuntimeError(
+RuntimeError: ('Returned non zero: ', 1)
+
