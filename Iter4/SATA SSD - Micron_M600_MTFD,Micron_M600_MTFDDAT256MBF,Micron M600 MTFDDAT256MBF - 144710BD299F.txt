@@ -1,0 +1,332 @@
+2021-06-29 09:45:47 sata_ssd: INFO: Starting sanitization of /dev/sde
+2021-06-29 09:45:47 sata_ssd: INFO: Erasing with ME tools 0.10.12+b35bb8a
+2021-06-29 09:45:47 sata_ssd: DEBUG: Running _pre_run()
+2021-06-29 09:45:47 sata_ssd: INFO: Drive /dev/sde model: Micron_M600_MTFD, Micron_M600_MTFDDAT256MBF, Micron M600 MTFDDAT256MBF Serial number: 144710BD299F
+2021-06-29 09:45:47 Phase UNLOCKING 0%: Overall: 0%
+2021-06-29 09:45:47 sata_ssd: INFO: HPAInfo HPAInfo(sectors=500118192, max_sectors=500118192)
+2021-06-29 09:45:47 Phase UNLOCKING 100%: Overall: 0%
+2021-06-29 09:45:47 sata_ssd: INFO: Starting phase CANARY_INIT
+2021-06-29 09:45:47 sata_ssd: INFO: Starting phase CANARY_INIT_/dev/sde for /dev/sde
+2021-06-29 09:45:47 Phase CANARY_INIT 0%: Overall: 0%
+2021-06-29 09:45:47 sata_ssd: INFO: /dev/sde size 238.47GiB
+2021-06-29 09:45:47 Phase CANARY_INIT_/dev/sde 0%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: INFO: Will write 42 canary patterns, at [Chunk(start=0, len=1, block_size=4096), Chunk(start=481360, len=1563, block_size=4096), Chunk(start=1705072, len=1563, block_size=4096), Chunk(start=2652160, len=1563, block_size=4096), Chunk(start=4610410, len=1563, block_size=4096), Chunk(start=4993309, len=1563, block_size=4096), Chunk(start=6324856, len=1563, block_size=4096), Chunk(start=9266140, len=1563, block_size=4096), Chunk(start=9708427, len=1563, block_size=4096), Chunk(start=9877213, len=1563, block_size=4096), Chunk(start=11565091, len=1563, block_size=4096), Chunk(start=14756431, len=1563, block_size=4096), Chunk(start=17214796, len=1563, block_size=4096), Chunk(start=18279097, len=1563, block_size=4096), Chunk(start=21400108, len=1563, block_size=4096), Chunk(start=22140898, len=1563, block_size=4096), Chunk(start=23078608, len=1563, block_size=4096), Chunk(start=25305670, len=1563, block_size=4096), Chunk(start=25579168, len=1563, block_size=4096), Chunk(start=26823196, len=1563, block_size=4096), Chunk(start=30316168, len=3123, block_size=4096), Chunk(start=30663118, len=1563, block_size=4096), Chunk(start=31246063, len=1563, block_size=4096), Chunk(start=32626060, len=1563, block_size=4096), Chunk(start=34971898, len=1563, block_size=4096), Chunk(start=37061428, len=1563, block_size=4096), Chunk(start=39682327, len=1563, block_size=4096), Chunk(start=40423117, len=1563, block_size=4096), Chunk(start=41146717, len=1563, block_size=4096), Chunk(start=43964536, len=1563, block_size=4096), Chunk(start=46179094, len=1563, block_size=4096), Chunk(start=49997137, len=1563, block_size=4096), Chunk(start=52016338, len=1563, block_size=4096), Chunk(start=57075283, len=1563, block_size=4096), Chunk(start=57767626, len=1563, block_size=4096), Chunk(start=58883503, len=1563, block_size=4096), Chunk(start=58952266, len=1563, block_size=4096), Chunk(start=60643270, len=1563, block_size=4096), Chunk(start=61184017, len=1563, block_size=4096), Chunk(start=61412194, len=1563, block_size=4096), Chunk(start=62221750, len=1563, block_size=4096), Chunk(start=62514773, len=1, block_size=4096)],total 250.3 MB
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 1/42, 0.0 MB @ 0.0 MB, speed 2.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 2%: Overall: 0%
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 4%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 2/42, 6.1 MB @ 1880.3 MB, speed 271.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 7%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 3/42, 6.1 MB @ 6660.4 MB, speed 287.0MB/s
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 4/42, 6.1 MB @ 10360.0 MB, speed 297.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 9%: Overall: 0%
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 11%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 5/42, 6.1 MB @ 18009.4 MB, speed 305.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 14%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 6/42, 6.1 MB @ 19505.1 MB, speed 308.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 16%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 7/42, 6.1 MB @ 24706.5 MB, speed 312.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 19%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 8/42, 6.1 MB @ 36195.9 MB, speed 313.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 21%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 9/42, 6.1 MB @ 37923.5 MB, speed 315.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 23%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 10/42, 6.1 MB @ 38582.9 MB, speed 315.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 26%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 11/42, 6.1 MB @ 45176.1 MB, speed 317.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 28%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 12/42, 6.1 MB @ 57642.3 MB, speed 317.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 30%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 13/42, 6.1 MB @ 67245.3 MB, speed 318.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 33%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 14/42, 6.1 MB @ 71402.7 MB, speed 318.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 35%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 15/42, 6.1 MB @ 83594.2 MB, speed 319.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 38%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 16/42, 6.1 MB @ 86487.9 MB, speed 319.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 40%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 17/42, 6.1 MB @ 90150.8 MB, speed 320.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 42%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 18/42, 6.1 MB @ 98850.3 MB, speed 320.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 45%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 19/42, 6.1 MB @ 99918.6 MB, speed 321.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 47%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 20/42, 6.1 MB @ 104778.1 MB, speed 321.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 50%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 21/42, 12.2 MB @ 118422.5 MB, speed 320.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 52%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 22/42, 6.1 MB @ 119777.8 MB, speed 319.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 54%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 23/42, 6.1 MB @ 122054.9 MB, speed 320.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 57%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 24/42, 6.1 MB @ 127445.5 MB, speed 320.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 59%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 25/42, 6.1 MB @ 136609.0 MB, speed 320.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 61%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 26/42, 6.1 MB @ 144771.2 MB, speed 320.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 64%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 27/42, 6.1 MB @ 155009.1 MB, speed 320.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 66%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 28/42, 6.1 MB @ 157902.8 MB, speed 321.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 69%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 29/42, 6.1 MB @ 160729.4 MB, speed 321.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 71%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 30/42, 6.1 MB @ 171736.5 MB, speed 321.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 73%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 31/42, 6.1 MB @ 180387.1 MB, speed 321.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 76%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 32/42, 6.1 MB @ 195301.3 MB, speed 321.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 78%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 33/42, 6.1 MB @ 203188.8 MB, speed 321.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 80%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 34/42, 6.1 MB @ 222950.3 MB, speed 321.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 83%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 35/42, 6.1 MB @ 225654.8 MB, speed 321.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 85%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 36/42, 6.1 MB @ 230013.7 MB, speed 322.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 88%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 37/42, 6.1 MB @ 230282.3 MB, speed 322.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 90%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 38/42, 6.1 MB @ 236887.8 MB, speed 322.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 92%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 39/42, 6.1 MB @ 239000.1 MB, speed 322.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 95%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 40/42, 6.1 MB @ 239891.4 MB, speed 322.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 97%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 41/42, 6.1 MB @ 243053.7 MB, speed 322.0MB/s
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 100%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: writing chunk 42/42, 0.0 MB @ 244198.3 MB, speed 321.0MB/s
+2021-06-29 09:45:48 sata_ssd: DEBUG: Flushing /dev/sde cache
+2021-06-29 09:45:48 Phase CANARY_INIT_/dev/sde 100%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: DEBUG: Running _run()
+2021-06-29 09:45:48 Phase CANARY_INIT 100%: Overall: 0%
+2021-06-29 09:45:48 Phase ATA_SANITIZATION 0%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: INFO: Attempting CRYPTO_SCRAMBLE_EXT sanitization on /dev/sde
+2021-06-29 09:45:48 Phase CRYPTO_SCRAMBLE_EXT 0%: Overall: 0%
+2021-06-29 09:45:48 sata_ssd: INFO: Running: /usr/sbin/hdparm --yes-i-know-what-i-am-doing --sanitize-crypto-scramble /dev/sde
+2021-06-29 09:45:48 sata_ssd: INFO:
+2021-06-29 09:45:48 sata_ssd: INFO: /dev/sde:
+2021-06-29 09:45:48 sata_ssd: INFO: Issuing SANITIZE_CRYPTO_SCRAMBLE command
+2021-06-29 09:45:48 sata_ssd: INFO: Operation started in background
+2021-06-29 09:45:48 sata_ssd: INFO: You may use `--sanitize-status` to check progress
+2021-06-29 09:45:58 Phase CRYPTO_SCRAMBLE_EXT 100%: Overall: 0%
+2021-06-29 09:45:58 sata_ssd: INFO: CRYPTO_SCRAMBLE_EXT sanitization successful
+2021-06-29 09:45:58 Phase BLOCK_ERASE_EXT 0%: Overall: 0%
+2021-06-29 09:45:58 sata_ssd: INFO: Attempting BLOCK_ERASE_EXT sanitization on /dev/sde
+2021-06-29 09:45:59 sata_ssd: INFO: Running: /usr/sbin/hdparm --yes-i-know-what-i-am-doing --sanitize-block-erase /dev/sde
+2021-06-29 09:45:59 sata_ssd: INFO:
+2021-06-29 09:45:59 sata_ssd: INFO: /dev/sde:
+2021-06-29 09:45:59 sata_ssd: INFO: Issuing SANITIZE_BLOCK_ERASE command
+2021-06-29 09:45:59 sata_ssd: INFO: Operation started in background
+2021-06-29 09:45:59 sata_ssd: INFO: You may use `--sanitize-status` to check progress
+2021-06-29 09:46:10 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:46:20 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:46:30 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:46:40 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:46:50 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:47:01 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:47:11 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:47:21 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:47:31 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:47:41 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:47:51 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:48:01 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:48:11 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:48:21 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:48:31 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:48:41 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:48:51 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:49:01 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:49:11 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:49:21 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:49:31 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:49:41 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:49:51 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:50:01 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:50:11 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:50:21 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:50:31 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:50:41 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:50:51 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:51:01 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:51:11 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:51:21 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:51:31 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:51:41 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:51:51 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:52:01 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:52:11 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:52:21 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:52:31 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:52:41 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:52:51 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:53:01 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:53:11 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:53:21 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:53:31 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:53:41 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:53:51 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:54:01 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:54:11 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:54:21 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:54:31 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:54:41 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:54:51 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:55:01 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:55:11 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:55:21 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:55:31 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:55:41 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:55:51 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:56:01 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:56:11 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:56:21 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:56:31 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:56:41 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:56:51 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:57:01 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:57:04 kernel: INFO,KERN: usb 1-14.1.1: USB disconnect, device number 16 {'SUBSYSTEM': 'usb', 'DEVICE': 'c189:15'}
+2021-06-29 09:57:11 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:57:21 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:57:31 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:57:41 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:57:51 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:58:01 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:58:11 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:58:21 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:58:31 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:58:41 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:58:51 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:59:01 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:59:11 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:59:21 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:59:31 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:59:42 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 09:59:52 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:00:02 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:00:12 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:00:22 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:00:32 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:00:42 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:00:52 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:01:02 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:01:12 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:01:22 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:01:32 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:01:42 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:01:52 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:02:02 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:02:12 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:02:22 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:02:32 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:02:42 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:02:52 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:03:02 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:03:12 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:03:22 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:03:32 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:03:42 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:03:52 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:04:02 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:04:12 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:04:22 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:04:32 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:04:42 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:04:52 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:05:02 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:05:12 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:05:22 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:05:32 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:05:42 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:05:52 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:06:02 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:06:12 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:06:22 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:06:32 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:06:42 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:06:52 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:07:02 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:07:12 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:07:22 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:07:29 kernel: INFO,KERN: usb 1-14.1.1: new high-speed USB device number 17 using xhci_hcd {'SUBSYSTEM': 'usb', 'DEVICE': '+usb:1-14.1.1'}
+2021-06-29 10:07:29 kernel: INFO,KERN: usb 1-14.1.1: New USB device found, idVendor=0624, idProduct=0249, bcdDevice= 0.00 {'SUBSYSTEM': 'usb', 'DEVICE': 'c189:16'}
+2021-06-29 10:07:29 kernel: INFO,KERN: usb 1-14.1.1: New USB device strings: Mfr=4, Product=5, SerialNumber=6 {'SUBSYSTEM': 'usb', 'DEVICE': 'c189:16'}
+2021-06-29 10:07:29 kernel: INFO,KERN: usb 1-14.1.1: Product: Keyboard/Mouse Function {'SUBSYSTEM': 'usb', 'DEVICE': 'c189:16'}
+2021-06-29 10:07:29 kernel: INFO,KERN: usb 1-14.1.1: Manufacturer: Avocent {'SUBSYSTEM': 'usb', 'DEVICE': 'c189:16'}
+2021-06-29 10:07:29 kernel: INFO,KERN: usb 1-14.1.1: SerialNumber: 20180726 {'SUBSYSTEM': 'usb', 'DEVICE': 'c189:16'}
+2021-06-29 10:07:29 kernel: INFO,KERN: input: Avocent Keyboard/Mouse Function as /devices/pci0000:00/0000:00:14.0/usb1/1-14/1-14.1/1-14.1.1/1-14.1.1:1.0/0003:0624:0249.0016/input/input24 {}
+2021-06-29 10:07:29 kernel: INFO,KERN: hid-generic 0003:0624:0249.0016: input,hidraw3: USB HID v1.00 Keyboard [Avocent Keyboard/Mouse Function] on usb-0000:00:14.0-14.1.1/input0 {'SUBSYSTEM': 'hid', 'DEVICE': '+hid:0003:0624:0249.0016'}
+2021-06-29 10:07:29 kernel: INFO,KERN: input: Avocent Keyboard/Mouse Function as /devices/pci0000:00/0000:00:14.0/usb1/1-14/1-14.1/1-14.1.1/1-14.1.1:1.1/0003:0624:0249.0017/input/input25 {}
+2021-06-29 10:07:29 kernel: INFO,KERN: hid-generic 0003:0624:0249.0017: input,hidraw4: USB HID v1.00 Mouse [Avocent Keyboard/Mouse Function] on usb-0000:00:14.0-14.1.1/input1 {'SUBSYSTEM': 'hid', 'DEVICE': '+hid:0003:0624:0249.0017'}
+2021-06-29 10:07:32 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:07:42 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:07:52 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:08:02 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:08:12 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:08:22 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:08:32 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:08:42 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:08:52 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:09:02 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:09:12 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:09:22 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:09:32 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:09:42 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:09:52 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:10:02 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:10:12 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:10:22 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:10:32 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:10:42 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:10:52 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:11:02 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:11:12 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:11:22 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:11:31 kernel: INFO,KERN: usb 1-14.1.1: USB disconnect, device number 17 {'SUBSYSTEM': 'usb', 'DEVICE': 'c189:16'}
+2021-06-29 10:11:32 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:11:42 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:11:52 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:12:02 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:12:12 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:12:22 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:12:33 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:12:43 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:12:53 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:13:03 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:13:13 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:13:23 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:13:33 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:13:43 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:13:53 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:14:03 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:14:13 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:14:23 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:14:33 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:14:43 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:14:53 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:15:03 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:15:13 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:15:23 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:15:33 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:15:43 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:15:53 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:16:03 Phase BLOCK_ERASE_EXT 20%: Overall: 0%
+2021-06-29 10:16:03 sata_ssd: ERROR: Traceback (most recent call last):
+2021-06-29 10:16:03 sata_ssd:   File "/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/lib/sanitization.py", line 355, in run
+2021-06-29 10:16:03 sata_ssd:     run_code = self._run()
+2021-06-29 10:16:03 sata_ssd:   File "/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/sanitization/ata.py", line 196, in _run
+2021-06-29 10:16:03 sata_ssd:     self._run_sanitize(
+2021-06-29 10:16:03 sata_ssd:   File "/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/sanitization/ata.py", line 261, in _run_sanitize
+2021-06-29 10:16:03 sata_ssd:     for status in self.wait_for_sanitizatization_state(
+2021-06-29 10:16:03 sata_ssd:   File "/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/sanitization/ata.py", line 316, in wait_for_sanitizatization_state
+2021-06-29 10:16:03 sata_ssd:     raise SanitizationError(
+2021-06-29 10:16:03 sata_ssd: magiceraser.lib.sanitization.SanitizationError: Timed out while waiting for [<ATASanitizeState.IDLE: 'SD0'>] sanitization state
+2021-06-29 10:16:03 sata_ssd:
+2021-06-29 10:16:03 Traceback (most recent call last):
+  File "/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/daemon/__init__.py", line 229, in _sanitizer_thread
+    self._sanitize(job_id, device, log_fd)
+  File "/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/daemon/__init__.py", line 193, in _sanitize
+    for sanitization_state in sanitization.progress():
+  File "/opt/magiceraser/pyenv/versions/3.8.5/lib/python3.8/site-packages/magiceraser/lib/sanitization.py", line 153, in progress
+    raise RuntimeError(
+RuntimeError: ('Returned non zero: ', 1)
+
