@@ -1,0 +1,304 @@
+2021-09-24 03:33:18 sata_hdd: INFO: Starting sanitization of /dev/sde
+2021-09-24 03:33:18 sata_hdd: INFO: Erasing with ME tools 0.10.22+257f199
+2021-09-24 03:33:18 sata_hdd: DEBUG: Running _pre_run()
+2021-09-24 03:33:18 Phase UNLOCKING 0%: Overall: 0%
+2021-09-24 03:33:18 sata_hdd: INFO: Drive /dev/sde model: TOSHIBA MG04ACA200A, TOSHIBA MG04ACA2 Serial number: 60QVK9JEFKGA
+2021-09-24 03:33:18 sata_hdd: INFO: HPAInfo HPAInfo(sectors=488378646, max_sectors=488378646)
+2021-09-24 03:33:18 sata_hdd: INFO: DCOInfo DCOInfo(max_sectors=488378646)
+2021-09-24 03:33:18 Phase UNLOCKING 100%: Overall: 0%
+2021-09-24 03:33:18 Phase CANARY_INIT 0%: Overall: 0%
+2021-09-24 03:33:18 sata_hdd: INFO: Starting phase CANARY_INIT
+2021-09-24 03:33:18 Phase CANARY_INIT_/dev/sde 0%: Overall: 0%
+2021-09-24 03:33:18 sata_hdd: INFO: Starting phase CANARY_INIT_/dev/sde for /dev/sde
+2021-09-24 03:33:18 sata_hdd: INFO: /dev/sde size 1863.02GiB
+2021-09-24 03:33:18 sata_hdd: INFO: Will write 42 canary patterns, at [Chunk(start=0, len=1, block_size=4096), Chunk(start=53623912, len=12210, block_size=4096), Chunk(start=53880311, len=12210, block_size=4096), Chunk(start=69276428, len=12210, block_size=4096), Chunk(start=72084596, len=12210, block_size=4096), Chunk(start=86137679, len=12210, block_size=4096), Chunk(start=90032493, len=12210, block_size=4096), Chunk(start=94647664, len=12210, block_size=4096), Chunk(start=113462427, len=12210, block_size=4096), Chunk(start=121313105, len=12210, block_size=4096), Chunk(start=125366638, len=12210, block_size=4096), Chunk(start=126697473, len=12210, block_size=4096), Chunk(start=127710848, len=12210, block_size=4096), Chunk(start=140591826, len=12210, block_size=4096), Chunk(start=155963523, len=12210, block_size=4096), Chunk(start=212529901, len=12210, block_size=4096), Chunk(start=240611636, len=12210, block_size=4096), Chunk(start=254969947, len=12210, block_size=4096), Chunk(start=262454347, len=12210, block_size=4096), Chunk(start=282074926, len=12210, block_size=4096), Chunk(start=298325710, len=12210, block_size=4096), Chunk(start=299973983, len=12210, block_size=4096), Chunk(start=302574592, len=12210, block_size=4096), Chunk(start=304564734, len=12210, block_size=4096), Chunk(start=307824661, len=12210, block_size=4096), Chunk(start=312342152, len=12210, block_size=4096), Chunk(start=320864347, len=12210, block_size=4096), Chunk(start=323452757, len=12210, block_size=4096), Chunk(start=330570868, len=12210, block_size=4096), Chunk(start=333269157, len=12210, block_size=4096), Chunk(start=343732654, len=12210, block_size=4096), Chunk(start=345905935, len=12210, block_size=4096), Chunk(start=347664098, len=12210, block_size=4096), Chunk(start=366991659, len=24409, block_size=4096), Chunk(start=382229046, len=12210, block_size=4096), Chunk(start=404279316, len=12210, block_size=4096), Chunk(start=418564367, len=12210, block_size=4096), Chunk(start=443129787, len=12210, block_size=4096), Chunk(start=448526365, len=12210, block_size=4096), Chunk(start=467072519, len=12210, block_size=4096), Chunk(start=477682525, len=12210, block_size=4096), Chunk(start=488378645, len=1, block_size=4096)],total 1955.5 MB
+2021-09-24 03:33:18 Phase CANARY_INIT_/dev/sde 2%: Overall: 0%
+2021-09-24 03:33:18 sata_hdd: DEBUG: writing chunk 1/42, 0.0 MB @ 0.0 MB, speed 0.0MB/s
+2021-09-24 03:33:18 Phase CANARY_INIT_/dev/sde 4%: Overall: 0%
+2021-09-24 03:33:18 sata_hdd: DEBUG: writing chunk 2/42, 47.7 MB @ 209468.4 MB, speed 149.0MB/s
+2021-09-24 03:33:18 Phase CANARY_INIT_/dev/sde 7%: Overall: 0%
+2021-09-24 03:33:18 sata_hdd: DEBUG: writing chunk 3/42, 47.7 MB @ 210470.0 MB, speed 155.0MB/s
+2021-09-24 03:33:19 Phase CANARY_INIT_/dev/sde 9%: Overall: 0%
+2021-09-24 03:33:19 sata_hdd: DEBUG: writing chunk 4/42, 47.7 MB @ 270611.0 MB, speed 157.0MB/s
+2021-09-24 03:33:19 Phase CANARY_INIT_/dev/sde 11%: Overall: 0%
+2021-09-24 03:33:19 sata_hdd: DEBUG: writing chunk 5/42, 47.7 MB @ 281580.5 MB, speed 154.0MB/s
+2021-09-24 03:33:19 Phase CANARY_INIT_/dev/sde 14%: Overall: 0%
+2021-09-24 03:33:19 sata_hdd: DEBUG: writing chunk 6/42, 47.7 MB @ 336475.3 MB, speed 152.0MB/s
+2021-09-24 03:33:20 Phase CANARY_INIT_/dev/sde 16%: Overall: 0%
+2021-09-24 03:33:20 sata_hdd: DEBUG: writing chunk 7/42, 47.7 MB @ 351689.4 MB, speed 154.0MB/s
+2021-09-24 03:33:20 Phase CANARY_INIT_/dev/sde 19%: Overall: 0%
+2021-09-24 03:33:20 sata_hdd: DEBUG: writing chunk 8/42, 47.7 MB @ 369717.4 MB, speed 153.0MB/s
+2021-09-24 03:33:20 Phase CANARY_INIT_/dev/sde 21%: Overall: 0%
+2021-09-24 03:33:20 sata_hdd: DEBUG: writing chunk 9/42, 47.7 MB @ 443212.6 MB, speed 153.0MB/s
+2021-09-24 03:33:21 sata_hdd: DEBUG: writing chunk 10/42, 47.7 MB @ 473879.3 MB, speed 151.0MB/s
+2021-09-24 03:33:21 Phase CANARY_INIT_/dev/sde 23%: Overall: 0%
+2021-09-24 03:33:21 Phase CANARY_INIT_/dev/sde 26%: Overall: 0%
+2021-09-24 03:33:21 sata_hdd: DEBUG: writing chunk 11/42, 47.7 MB @ 489713.4 MB, speed 151.0MB/s
+2021-09-24 03:33:21 Phase CANARY_INIT_/dev/sde 28%: Overall: 0%
+2021-09-24 03:33:21 sata_hdd: DEBUG: writing chunk 12/42, 47.7 MB @ 494912.0 MB, speed 151.0MB/s
+2021-09-24 03:33:22 sata_hdd: DEBUG: writing chunk 13/42, 47.7 MB @ 498870.5 MB, speed 151.0MB/s
+2021-09-24 03:33:22 Phase CANARY_INIT_/dev/sde 30%: Overall: 0%
+2021-09-24 03:33:22 Phase CANARY_INIT_/dev/sde 33%: Overall: 0%
+2021-09-24 03:33:22 sata_hdd: DEBUG: writing chunk 14/42, 47.7 MB @ 549186.8 MB, speed 150.0MB/s
+2021-09-24 03:33:22 kernel: INFO,KERN: magiceraser-san (5672): drop_caches: 1 {}
+2021-09-24 03:33:22 Phase CANARY_INIT_/dev/sde 35%: Overall: 0%
+2021-09-24 03:33:22 sata_hdd: DEBUG: writing chunk 15/42, 47.7 MB @ 609232.5 MB, speed 149.0MB/s
+2021-09-24 03:33:23 Phase CANARY_INIT_/dev/sde 38%: Overall: 0%
+2021-09-24 03:33:23 sata_hdd: DEBUG: writing chunk 16/42, 47.7 MB @ 830194.9 MB, speed 147.0MB/s
+2021-09-24 03:33:23 Phase CANARY_INIT_/dev/sde 40%: Overall: 0%
+2021-09-24 03:33:23 sata_hdd: DEBUG: writing chunk 17/42, 47.7 MB @ 939889.2 MB, speed 147.0MB/s
+2021-09-24 03:33:23 Phase CANARY_INIT_/dev/sde 42%: Overall: 0%
+2021-09-24 03:33:23 sata_hdd: DEBUG: writing chunk 18/42, 47.7 MB @ 995976.4 MB, speed 146.0MB/s
+2021-09-24 03:33:24 Phase CANARY_INIT_/dev/sde 45%: Overall: 0%
+2021-09-24 03:33:24 sata_hdd: DEBUG: writing chunk 19/42, 47.7 MB @ 1025212.3 MB, speed 145.0MB/s
+2021-09-24 03:33:24 sata_hdd: DEBUG: writing chunk 20/42, 47.7 MB @ 1101855.2 MB, speed 143.0MB/s
+2021-09-24 03:33:24 Phase CANARY_INIT_/dev/sde 47%: Overall: 0%
+2021-09-24 03:33:24 kernel: INFO,KERN: magiceraser-san (5727): drop_caches: 1 {}
+2021-09-24 03:33:24 Phase CANARY_INIT_/dev/sde 50%: Overall: 0%
+2021-09-24 03:33:24 sata_hdd: DEBUG: writing chunk 21/42, 47.7 MB @ 1165334.8 MB, speed 142.0MB/s
+2021-09-24 03:33:25 kernel: INFO,KERN: magiceraser-san (5429): drop_caches: 1 {}
+2021-09-24 03:33:25 Phase CANARY_INIT_/dev/sde 52%: Overall: 0%
+2021-09-24 03:33:25 sata_hdd: DEBUG: writing chunk 22/42, 47.7 MB @ 1171773.4 MB, speed 141.0MB/s
+2021-09-24 03:33:25 Phase CANARY_INIT_/dev/sde 54%: Overall: 0%
+2021-09-24 03:33:25 sata_hdd: DEBUG: writing chunk 23/42, 47.7 MB @ 1181932.0 MB, speed 140.0MB/s
+2021-09-24 03:33:25 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:25 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:25 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:25 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:25 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 Phase CANARY_INIT_/dev/sde 57%: Overall: 0%
+2021-09-24 03:33:26 sata_hdd: DEBUG: writing chunk 24/42, 47.7 MB @ 1189706.0 MB, speed 139.0MB/s
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31080000): originator(PL), code(0x08), sub_code(0x0000) {}
+2021-09-24 03:33:26 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7828 FAILED Result: hostbyte=DID_SOFT_ERROR driverbyte=DRIVER_OK cmd_age=0s {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:33:26 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7828 CDB: Read(10) 28 00 e8 e0 85 d8 00 00 28 00 {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:33:26 kernel: ERR,KERN: blk_update_request: I/O error, dev sdb, sector 3907028440 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0 {}
+2021-09-24 03:33:26 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7829 FAILED Result: hostbyte=DID_SOFT_ERROR driverbyte=DRIVER_OK cmd_age=0s {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:33:26 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7829 CDB: Read(10) 28 00 e8 e0 85 28 00 00 a8 00 {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:33:26 kernel: ERR,KERN: blk_update_request: I/O error, dev sdb, sector 3907028264 op 0x0:(READ) flags 0x0 phys_seg 3 prio class 0 {}
+2021-09-24 03:33:26 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7830 FAILED Result: hostbyte=DID_SOFT_ERROR driverbyte=DRIVER_OK cmd_age=0s {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:33:26 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7830 CDB: Read(10) 28 00 e8 e0 85 00 00 00 20 00 {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:33:26 kernel: ERR,KERN: blk_update_request: I/O error, dev sdb, sector 3907028224 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0 {}
+2021-09-24 03:33:26 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7831 FAILED Result: hostbyte=DID_SOFT_ERROR driverbyte=DRIVER_OK cmd_age=0s {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:33:26 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7831 CDB: Read(10) 28 00 e8 e0 84 e8 00 00 10 00 {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:33:26 kernel: ERR,KERN: blk_update_request: I/O error, dev sdb, sector 3907028200 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0 {}
+2021-09-24 03:33:26 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7832 FAILED Result: hostbyte=DID_SOFT_ERROR driverbyte=DRIVER_OK cmd_age=0s {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:33:26 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7832 CDB: Read(10) 28 00 e8 e0 84 d8 00 00 08 00 {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:33:26 kernel: ERR,KERN: blk_update_request: I/O error, dev sdb, sector 3907028184 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0 {}
+2021-09-24 03:33:26 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7827 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE cmd_age=1s {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:33:26 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7827 Sense Key : Aborted Command [current]  {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:33:26 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7827 Add. Sense: No additional sense information {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:33:26 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7827 CDB: Read(10) 28 00 e8 e0 84 00 00 00 d0 00 {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:33:26 kernel: ERR,KERN: blk_update_request: I/O error, dev sdb, sector 3907027968 op 0x0:(READ) flags 0x0 phys_seg 2 prio class 0 {}
+2021-09-24 03:33:26 Phase CANARY_INIT_/dev/sde 59%: Overall: 0%
+2021-09-24 03:33:26 sata_hdd: DEBUG: writing chunk 25/42, 47.7 MB @ 1202440.1 MB, speed 138.0MB/s
+2021-09-24 03:33:26 kernel: INFO,KERN: magiceraser-san (5491): drop_caches: 1 {}
+2021-09-24 03:33:26 Phase CANARY_INIT_/dev/sde 61%: Overall: 0%
+2021-09-24 03:33:26 sata_hdd: DEBUG: writing chunk 26/42, 47.7 MB @ 1220086.5 MB, speed 138.0MB/s
+2021-09-24 03:33:27 Phase CANARY_INIT_/dev/sde 64%: Overall: 0%
+2021-09-24 03:33:27 sata_hdd: DEBUG: writing chunk 27/42, 47.7 MB @ 1253376.4 MB, speed 138.0MB/s
+2021-09-24 03:33:27 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7822 FAILED Result: hostbyte=DID_OK driverbyte=DRIVER_SENSE cmd_age=0s {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:33:27 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7822 Sense Key : Aborted Command [current]  {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:33:27 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7822 Add. Sense: No additional sense information {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:33:27 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7822 CDB: Read(10) 28 00 e8 e0 84 00 00 00 08 00 {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:33:27 kernel: ERR,KERN: blk_update_request: I/O error, dev sdb, sector 3907027968 op 0x0:(READ) flags 0x0 phys_seg 1 prio class 0 {}
+2021-09-24 03:33:27 kernel: ERR,KERN: Buffer I/O error on dev sdb, logical block 488378496, async page read {}
+2021-09-24 03:33:27 sata_hdd: DEBUG: writing chunk 28/42, 47.7 MB @ 1263487.3 MB, speed 137.0MB/s
+2021-09-24 03:33:27 Phase CANARY_INIT_/dev/sde 66%: Overall: 0%
+2021-09-24 03:33:27 sata_hdd: DEBUG: writing chunk 29/42, 47.7 MB @ 1291292.5 MB, speed 137.0MB/s
+2021-09-24 03:33:27 Phase CANARY_INIT_/dev/sde 69%: Overall: 0%
+2021-09-24 03:33:28 Phase CANARY_INIT_/dev/sde 71%: Overall: 0%
+2021-09-24 03:33:28 sata_hdd: DEBUG: writing chunk 30/42, 47.7 MB @ 1301832.6 MB, speed 137.0MB/s
+2021-09-24 03:33:28 Phase CANARY_INIT_/dev/sde 73%: Overall: 0%
+2021-09-24 03:33:28 sata_hdd: DEBUG: writing chunk 31/42, 47.7 MB @ 1342705.7 MB, speed 135.0MB/s
+2021-09-24 03:33:29 kernel: INFO,KERN: magiceraser-san (5805): drop_caches: 1 {}
+2021-09-24 03:33:29 Phase CANARY_INIT_/dev/sde 76%: Overall: 0%
+2021-09-24 03:33:29 sata_hdd: DEBUG: writing chunk 32/42, 47.7 MB @ 1351195.1 MB, speed 135.0MB/s
+2021-09-24 03:33:29 Phase CANARY_INIT_/dev/sde 78%: Overall: 0%
+2021-09-24 03:33:29 sata_hdd: DEBUG: writing chunk 33/42, 47.7 MB @ 1358062.9 MB, speed 134.0MB/s
+2021-09-24 03:33:30 Phase CANARY_INIT_/dev/sde 80%: Overall: 0%
+2021-09-24 03:33:30 sata_hdd: DEBUG: writing chunk 34/42, 95.3 MB @ 1433561.2 MB, speed 133.0MB/s
+2021-09-24 03:33:30 Phase CANARY_INIT_/dev/sde 83%: Overall: 0%
+2021-09-24 03:33:30 sata_hdd: DEBUG: writing chunk 35/42, 47.7 MB @ 1493082.2 MB, speed 132.0MB/s
+2021-09-24 03:33:31 Phase CANARY_INIT_/dev/sde 85%: Overall: 0%
+2021-09-24 03:33:31 sata_hdd: DEBUG: writing chunk 36/42, 47.7 MB @ 1579216.1 MB, speed 131.0MB/s
+2021-09-24 03:33:31 Phase CANARY_INIT_/dev/sde 88%: Overall: 0%
+2021-09-24 03:33:31 sata_hdd: DEBUG: writing chunk 37/42, 47.7 MB @ 1635017.1 MB, speed 130.0MB/s
+2021-09-24 03:33:31 kernel: INFO,KERN: magiceraser-san (5854): drop_caches: 1 {}
+2021-09-24 03:33:32 Phase CANARY_INIT_/dev/sde 90%: Overall: 0%
+2021-09-24 03:33:32 sata_hdd: DEBUG: writing chunk 38/42, 47.7 MB @ 1730975.7 MB, speed 129.0MB/s
+2021-09-24 03:33:32 Phase CANARY_INIT_/dev/sde 92%: Overall: 0%
+2021-09-24 03:33:32 sata_hdd: DEBUG: writing chunk 39/42, 47.7 MB @ 1752056.1 MB, speed 128.0MB/s
+2021-09-24 03:33:33 Phase CANARY_INIT_/dev/sde 95%: Overall: 0%
+2021-09-24 03:33:33 sata_hdd: DEBUG: writing chunk 40/42, 47.7 MB @ 1824502.0 MB, speed 127.0MB/s
+2021-09-24 03:33:33 Phase CANARY_INIT_/dev/sde 97%: Overall: 0%
+2021-09-24 03:33:33 sata_hdd: DEBUG: writing chunk 41/42, 47.7 MB @ 1865947.4 MB, speed 125.0MB/s
+2021-09-24 03:33:33 Phase CANARY_INIT_/dev/sde 100%: Overall: 0%
+2021-09-24 03:33:33 sata_hdd: DEBUG: writing chunk 42/42, 0.0 MB @ 1907729.1 MB, speed 125.0MB/s
+2021-09-24 03:33:33 sata_hdd: DEBUG: Dropping /dev/sde cache
+2021-09-24 03:33:34 Phase CANARY_INIT_/dev/sde 100%: Overall: 0%
+2021-09-24 03:33:34 sata_hdd: DEBUG: Running _run()
+2021-09-24 03:33:34 Phase CANARY_INIT 100%: Overall: 0%
+2021-09-24 03:33:34 kernel: INFO,KERN: magiceraser-san (5618): drop_caches: 1 {}
+2021-09-24 03:33:34 Phase ATA_SANITIZATION 0%: Overall: 0%
+2021-09-24 03:33:34 sata_hdd: INFO: Attempting SECURITY_ERASE sanitization on /dev/sde
+2021-09-24 03:33:34 Phase Check if frozen 0%: Overall: 0%
+2021-09-24 03:33:34 sata_hdd: INFO: Setting user password.
+2021-09-24 03:33:34 Phase Check if frozen 100%: Overall: 30%
+2021-09-24 03:33:34 sata_hdd: INFO: Running: hdparm --user-master u --security-set-pass paSsword1 /dev/sde
+2021-09-24 03:33:34 Phase Set user password 0%: Overall: 30%
+2021-09-24 03:33:34 sata_hdd: INFO: security_password: "paSsword1"
+2021-09-24 03:33:34 sata_hdd: INFO:
+2021-09-24 03:33:34 sata_hdd: INFO: /dev/sde:
+2021-09-24 03:33:34 sata_hdd: INFO:  Issuing SECURITY_SET_PASS command, password="paSsword1", user=user, mode=high
+2021-09-24 03:33:34 Phase Set user password 100%: Overall: 30%
+2021-09-24 03:33:34 sata_hdd: INFO: Waiting 30 seconds to work around fw issues
+2021-09-24 03:33:34 Phase Wait for drive 0%: Overall: 30%
+2021-09-24 03:33:45 kernel: INFO,KERN: magiceraser-san (5561): drop_caches: 1 {}
+2021-09-24 03:33:46 kernel: INFO,KERN: usb 1-11: USB disconnect, device number 3 {'SUBSYSTEM': 'usb', 'DEVICE': 'c189:2'}
+2021-09-24 03:33:47 kernel: INFO,KERN: usb 1-12: USB disconnect, device number 5 {'SUBSYSTEM': 'usb', 'DEVICE': 'c189:4'}
+2021-09-24 03:33:52 kernel: INFO,KERN: magiceraser-san (5727): drop_caches: 1 {}
+2021-09-24 03:33:52 kernel: INFO,KERN: magiceraser-san (5672): drop_caches: 1 {}
+2021-09-24 03:34:04 Phase Wait for drive 100%: Overall: 30%
+2021-09-24 03:34:04 sata_hdd: INFO: Running: hdparm --user-master u --security-erase-enhanced paSsword1 /dev/sde
+2021-09-24 03:34:04 Phase Security erase 0%: Overall: 60%
+2021-09-24 03:34:09 kernel: INFO,KERN: magiceraser-san (5854): drop_caches: 1 {}
+2021-09-24 03:34:09 kernel: INFO,KERN: magiceraser-san (5805): drop_caches: 1 {}
+2021-09-24 03:36:31 kernel: INFO,KERN: sd 6:0:1:0: attempting task abort!scmd(0x00000000e116c9e1), outstanding for 15101 ms & timeout 15000 ms {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:36:31 kernel: INFO,KERN: sd 6:0:1:0: [sdb] tag#7163 CDB: ATA command pass through(16) 85 08 0e 00 00 00 01 00 00 00 00 00 00 40 ec 00 {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:36:31 kernel: INFO,KERN: scsi target6:0:1: handle(0x000c), sas_address(0x4433221100000000), phy(0) {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:target6:0:1'}
+2021-09-24 03:36:31 kernel: INFO,KERN: scsi target6:0:1: enclosure logical id(0x500605b010a1b3d0), slot(3)  {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:target6:0:1'}
+2021-09-24 03:36:31 kernel: INFO,KERN: scsi target6:0:1: enclosure level(0x0000), connector name(     ) {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:target6:0:1'}
+2021-09-24 03:36:34 kernel: INFO,KERN: sd 6:0:1:0: task abort: SUCCESS scmd(0x00000000e116c9e1) {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:36:42 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31110e03): originator(PL), code(0x11), sub_code(0x0e03) {}
+2021-09-24 03:37:00 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31110e03): originator(PL), code(0x11), sub_code(0x0e03) {}
+2021-09-24 03:37:08 kernel: WARNING,KERN: mpt3sas_cm0: log_info(0x31110e03): originator(PL), code(0x11), sub_code(0x0e03) {}
+2021-09-24 03:37:11 kernel: INFO,KERN: sd 6:0:1:0: device_block, handle(0x000c) {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:37:12 kernel: WARNING,KERN: sd 6:0:1:0: device_unblock and setting to running, handle(0x000c) {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:37:12 kernel: NOTICE,KERN: sd 6:0:1:0: [sdb] Synchronizing SCSI cache {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:37:12 kernel: INFO,KERN: sd 6:0:1:0: [sdb] Synchronize Cache(10) failed: Result: hostbyte=DID_NO_CONNECT driverbyte=DRIVER_OK {'SUBSYSTEM': 'scsi', 'DEVICE': '+scsi:6:0:1:0'}
+2021-09-24 03:37:12 kernel: INFO,KERN: mpt3sas_cm0: mpt3sas_transport_port_remove: removed: sas_addr(0x4433221100000000) {}
+2021-09-24 03:37:12 kernel: INFO,KERN: mpt3sas_cm0: removing handle(0x000c), sas_addr(0x4433221100000000) {}
+2021-09-24 03:37:12 kernel: INFO,KERN: mpt3sas_cm0: enclosure logical id(0x500605b010a1b3d0), slot(3) {}
+2021-09-24 03:37:12 kernel: INFO,KERN: mpt3sas_cm0: enclosure level(0x0000), connector name(     ) {}
+2021-09-24 07:13:29 sata_hdd: INFO: security_password: "paSsword1"
+2021-09-24 07:13:29 sata_hdd: INFO:
+2021-09-24 07:13:29 sata_hdd: INFO: /dev/sde:
+2021-09-24 07:13:29 sata_hdd: INFO:  Issuing SECURITY_ERASE command, password="paSsword1", user=user
+2021-09-24 07:13:29 sata_hdd: INFO: Waiting for Test Unit Ready
+2021-09-24 07:13:30 Phase Security erase 100%: Overall: 100%
+2021-09-24 07:13:30 sata_hdd: INFO: SECURITY_ERASE sanitization successful!
+2021-09-24 07:13:30 sata_hdd: DEBUG: Running _post_run()
+2021-09-24 07:13:30 sata_hdd: INFO: Drive /dev/sde model: TOSHIBA MG04ACA200A, TOSHIBA MG04ACA2 Serial number: 60QVK9JEFKGA
+2021-09-24 07:13:30 Phase VERIFICATION 0%: Overall: 100%
+2021-09-24 07:13:30 sata_hdd: INFO: Starting phase VERIFICATION_/dev/sde for /dev/sde
+2021-09-24 07:13:30 Phase VERIFICATION_/dev/sde 0%: Overall: 100%
+2021-09-24 07:13:30 sata_hdd: INFO: Dropping the cache ..
+2021-09-24 07:13:30 kernel: INFO,KERN: magiceraser-san (5618): drop_caches: 1 {}
+2021-09-24 07:13:30 sata_hdd: INFO: Will verify 4002 chunks,total 200359.6MB
+2021-09-24 07:13:33 Phase VERIFICATION_/dev/sde 0%: Overall: 100%
+2021-09-24 07:13:33 sata_hdd: DEBUG: verifying chunk 10/4002 47.7 MB @ 4053.9 MB, speed 163.0MB/s
+2021-09-24 07:14:03 sata_hdd: DEBUG: verifying chunk 110/4002 47.7 MB @ 51794.8 MB, speed 164.6MB/s
+2021-09-24 07:14:03 Phase VERIFICATION_/dev/sde 2%: Overall: 100%
+2021-09-24 07:14:34 Phase VERIFICATION_/dev/sde 5%: Overall: 100%
+2021-09-24 07:14:34 sata_hdd: DEBUG: verifying chunk 210/4002 47.7 MB @ 99297.2 MB, speed 164.1MB/s
+2021-09-24 07:15:04 Phase VERIFICATION_/dev/sde 7%: Overall: 100%
+2021-09-24 07:15:04 sata_hdd: DEBUG: verifying chunk 310/4002 47.7 MB @ 147610.4 MB, speed 163.0MB/s
+2021-09-24 07:15:35 sata_hdd: DEBUG: verifying chunk 410/4002 47.7 MB @ 194635.8 MB, speed 162.6MB/s
+2021-09-24 07:15:35 Phase VERIFICATION_/dev/sde 10%: Overall: 100%
+2021-09-24 07:16:06 Phase VERIFICATION_/dev/sde 12%: Overall: 100%
+2021-09-24 07:16:06 sata_hdd: DEBUG: verifying chunk 510/4002 47.7 MB @ 242710.5 MB, speed 162.0MB/s
+2021-09-24 07:16:37 Phase VERIFICATION_/dev/sde 15%: Overall: 100%
+2021-09-24 07:16:37 sata_hdd: DEBUG: verifying chunk 610/4002 47.7 MB @ 289974.4 MB, speed 161.5MB/s
+2021-09-24 07:17:10 Phase VERIFICATION_/dev/sde 17%: Overall: 100%
+2021-09-24 07:17:10 sata_hdd: DEBUG: verifying chunk 710/4002 47.7 MB @ 337953.8 MB, speed 160.9MB/s
+2021-09-24 07:17:42 sata_hdd: DEBUG: verifying chunk 810/4002 47.7 MB @ 385360.8 MB, speed 160.6MB/s
+2021-09-24 07:17:42 Phase VERIFICATION_/dev/sde 20%: Overall: 100%
+2021-09-24 07:18:15 sata_hdd: DEBUG: verifying chunk 910/4002 47.7 MB @ 433626.3 MB, speed 160.0MB/s
+2021-09-24 07:18:15 Phase VERIFICATION_/dev/sde 22%: Overall: 100%
+2021-09-24 07:18:47 Phase VERIFICATION_/dev/sde 25%: Overall: 100%
+2021-09-24 07:18:47 sata_hdd: DEBUG: verifying chunk 1010/4002 47.7 MB @ 480890.2 MB, speed 159.6MB/s
+2021-09-24 07:19:21 sata_hdd: DEBUG: verifying chunk 1110/4002 47.7 MB @ 528631.0 MB, speed 158.9MB/s
+2021-09-24 07:19:21 Phase VERIFICATION_/dev/sde 27%: Overall: 100%
+2021-09-24 07:19:54 sata_hdd: DEBUG: verifying chunk 1210/4002 47.7 MB @ 576324.2 MB, speed 158.5MB/s
+2021-09-24 07:19:54 Phase VERIFICATION_/dev/sde 30%: Overall: 100%
+2021-09-24 07:20:26 Phase VERIFICATION_/dev/sde 32%: Overall: 100%
+2021-09-24 07:20:26 sata_hdd: DEBUG: verifying chunk 1310/4002 47.7 MB @ 624208.2 MB, speed 157.9MB/s
+2021-09-24 07:20:59 sata_hdd: DEBUG: verifying chunk 1410/4002 47.7 MB @ 671567.4 MB, speed 157.3MB/s
+2021-09-24 07:20:59 Phase VERIFICATION_/dev/sde 35%: Overall: 100%
+2021-09-24 07:21:32 Phase VERIFICATION_/dev/sde 37%: Overall: 100%
+2021-09-24 07:21:32 sata_hdd: DEBUG: verifying chunk 1510/4002 47.7 MB @ 719737.6 MB, speed 156.6MB/s
+2021-09-24 07:22:06 Phase VERIFICATION_/dev/sde 40%: Overall: 100%
+2021-09-24 07:22:06 sata_hdd: DEBUG: verifying chunk 1610/4002 47.7 MB @ 767669.2 MB, speed 156.0MB/s
+2021-09-24 07:22:41 Phase VERIFICATION_/dev/sde 42%: Overall: 100%
+2021-09-24 07:22:41 sata_hdd: DEBUG: verifying chunk 1710/4002 47.7 MB @ 814933.1 MB, speed 155.4MB/s
+2021-09-24 07:23:17 sata_hdd: DEBUG: verifying chunk 1810/4002 47.7 MB @ 862340.1 MB, speed 154.6MB/s
+2021-09-24 07:23:17 Phase VERIFICATION_/dev/sde 45%: Overall: 100%
+2021-09-24 07:23:51 sata_hdd: DEBUG: verifying chunk 1910/4002 47.7 MB @ 910033.3 MB, speed 153.9MB/s
+2021-09-24 07:23:51 Phase VERIFICATION_/dev/sde 47%: Overall: 100%
+2021-09-24 07:24:27 Phase VERIFICATION_/dev/sde 50%: Overall: 100%
+2021-09-24 07:24:27 sata_hdd: DEBUG: verifying chunk 2010/4002 47.7 MB @ 957869.5 MB, speed 153.3MB/s
+2021-09-24 07:25:03 sata_hdd: DEBUG: verifying chunk 2110/4002 47.7 MB @ 1006039.6 MB, speed 152.6MB/s
+2021-09-24 07:25:03 Phase VERIFICATION_/dev/sde 52%: Overall: 100%
+2021-09-24 07:25:40 Phase VERIFICATION_/dev/sde 55%: Overall: 100%
+2021-09-24 07:25:40 sata_hdd: DEBUG: verifying chunk 2210/4002 47.7 MB @ 1053398.9 MB, speed 151.8MB/s
+2021-09-24 07:26:18 Phase VERIFICATION_/dev/sde 57%: Overall: 100%
+2021-09-24 07:26:18 sata_hdd: DEBUG: verifying chunk 2310/4002 47.7 MB @ 1101378.3 MB, speed 151.0MB/s
+2021-09-24 07:26:55 Phase VERIFICATION_/dev/sde 60%: Overall: 100%
+2021-09-24 07:26:55 sata_hdd: DEBUG: verifying chunk 2410/4002 47.7 MB @ 1148499.1 MB, speed 150.2MB/s
+2021-09-24 07:27:33 Phase VERIFICATION_/dev/sde 62%: Overall: 100%
+2021-09-24 07:27:33 sata_hdd: DEBUG: verifying chunk 2510/4002 47.7 MB @ 1196335.3 MB, speed 149.3MB/s
+2021-09-24 07:28:13 Phase VERIFICATION_/dev/sde 65%: Overall: 100%
+2021-09-24 07:28:13 sata_hdd: DEBUG: verifying chunk 2610/4002 47.7 MB @ 1244553.2 MB, speed 148.4MB/s
+2021-09-24 07:28:52 Phase VERIFICATION_/dev/sde 67%: Overall: 100%
+2021-09-24 07:28:52 sata_hdd: DEBUG: verifying chunk 2710/4002 47.7 MB @ 1291578.6 MB, speed 147.5MB/s
+2021-09-24 07:29:32 Phase VERIFICATION_/dev/sde 70%: Overall: 100%
+2021-09-24 07:29:32 sata_hdd: DEBUG: verifying chunk 2810/4002 47.7 MB @ 1339224.1 MB, speed 146.5MB/s
+2021-09-24 07:30:13 Phase VERIFICATION_/dev/sde 72%: Overall: 100%
+2021-09-24 07:30:13 sata_hdd: DEBUG: verifying chunk 2910/4002 47.7 MB @ 1387489.6 MB, speed 145.5MB/s
+2021-09-24 07:30:54 Phase VERIFICATION_/dev/sde 75%: Overall: 100%
+2021-09-24 07:30:54 sata_hdd: DEBUG: verifying chunk 3010/4002 47.7 MB @ 1434610.4 MB, speed 144.5MB/s
+2021-09-24 07:31:36 Phase VERIFICATION_/dev/sde 77%: Overall: 100%
+2021-09-24 07:31:36 sata_hdd: DEBUG: verifying chunk 3110/4002 47.7 MB @ 1482828.2 MB, speed 143.5MB/s
+2021-09-24 07:32:20 Phase VERIFICATION_/dev/sde 80%: Overall: 100%
+2021-09-24 07:32:20 sata_hdd: DEBUG: verifying chunk 3210/4002 47.7 MB @ 1530330.6 MB, speed 142.4MB/s
+2021-09-24 07:33:05 Phase VERIFICATION_/dev/sde 82%: Overall: 100%
+2021-09-24 07:33:05 sata_hdd: DEBUG: verifying chunk 3310/4002 47.7 MB @ 1577928.3 MB, speed 141.2MB/s
+2021-09-24 07:33:51 Phase VERIFICATION_/dev/sde 85%: Overall: 100%
+2021-09-24 07:33:51 sata_hdd: DEBUG: verifying chunk 3410/4002 47.7 MB @ 1625812.3 MB, speed 139.9MB/s
+2021-09-24 07:34:39 sata_hdd: DEBUG: verifying chunk 3510/4002 47.7 MB @ 1673123.9 MB, speed 138.5MB/s
+2021-09-24 07:34:39 Phase VERIFICATION_/dev/sde 87%: Overall: 100%
+2021-09-24 07:35:30 sata_hdd: DEBUG: verifying chunk 3610/4002 47.7 MB @ 1720864.8 MB, speed 137.1MB/s
+2021-09-24 07:35:30 Phase VERIFICATION_/dev/sde 90%: Overall: 100%
+2021-09-24 07:36:21 Phase VERIFICATION_/dev/sde 92%: Overall: 100%
+2021-09-24 07:36:21 sata_hdd: DEBUG: verifying chunk 3710/4002 47.7 MB @ 1768653.3 MB, speed 135.6MB/s
+2021-09-24 07:37:14 Phase VERIFICATION_/dev/sde 95%: Overall: 100%
+2021-09-24 07:37:14 sata_hdd: DEBUG: verifying chunk 3810/4002 47.7 MB @ 1816155.7 MB, speed 134.0MB/s
+2021-09-24 07:38:10 sata_hdd: DEBUG: verifying chunk 3910/4002 47.7 MB @ 1864182.7 MB, speed 132.3MB/s
+2021-09-24 07:38:10 Phase VERIFICATION_/dev/sde 97%: Overall: 100%
+2021-09-24 07:39:03 Phase VERIFICATION_/dev/sde 100%: Overall: 100%
+2021-09-24 07:39:11 Phase VERIFICATION 100%: Overall: 100%
+2021-09-24 07:39:11 Phase FINISH 100%: Overall: 100%
